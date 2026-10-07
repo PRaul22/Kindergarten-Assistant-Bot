@@ -1,0 +1,72 @@
+@prefix : <http://exemplu.ro/proiectR&S#> .
+
+:Gradinita_1 a :Gradinita ;
+               :nume "Grădinița Hermannstadt Kids" ;
+               :cartier "Ștrand" ;
+               :limba "Germana" ;
+               :taxaBaza 1700 ;
+               :oferaCurs :Curs_101, :Curs_102, :Curs_104 .
+
+:Gradinita_2 a :Gradinita ;
+               :nume "Junior Academy Sibiu" ;
+               :cartier "Hipodrom" ;
+               :limba "Romana" ;
+               :taxaBaza 2100 ;
+               :oferaCurs :Curs_103 .
+
+:Gradinita_3 a :Gradinita ;
+               :nume "Grădinița Piticot" ;
+               :cartier "Vasile Aaron" ;
+               :limba "Romana" ;
+               :taxaBaza 1500 ;
+               :oferaCurs :Curs_105, :Curs_106 .
+
+:Gradinita_4 a :Gradinita ;
+               :nume "Kids Joy Sibiu" ;
+               :cartier "Centru" ;
+               :limba "Engleza" ;
+               :taxaBaza 1200 ;
+               :oferaCurs :Curs_107 .
+
+:Gradinita_5 a :Gradinita ;
+               :nume "Montessori Education" ;
+               :cartier "Terezian" ;
+               :limba "Germana" ;
+               :taxaBaza 2500 ;
+               :oferaCurs :Curs_108, :Curs_109 .
+
+:Curs_101 a :CursOptional ;
+            :numeCurs "Limba Germană Avansat" ;
+            :pret 0 .
+
+:Curs_102 a :CursOptional ;
+            :numeCurs "Tenis de câmp" ;
+            :pret 300 .
+
+:Curs_103 a :CursOptional ;
+            :numeCurs "Dansuri Populare" ;
+            :pret 100 .
+
+:Curs_104 a :CursOptional ;
+            :numeCurs "Șah" ;
+            :pret 120 .
+
+:Curs_105 a :CursOptional ;
+            :numeCurs "Pictură" ;
+            :pret 80 .
+
+:Curs_106 a :CursOptional ;
+            :numeCurs "Engleză Distractivă" ;
+            :pret 150 .
+
+:Curs_107 a :CursOptional ;
+            :numeCurs "Robotică" ;
+            :pret 200 .
+
+:Curs_108 a :CursOptional ;
+            :numeCurs "Pian" ;
+            :pret 250 .
+
+:Curs_109 a :CursOptional ;
+            :numeCurs "Modelaj în lut" ;
+            :pret 100 .

@@ -1,0 +1,109 @@
+{
+  "gradinite": [
+    {
+      "id": 1,
+      "nume": "Hermannstadt Kids",
+      "cartier": "Ștrand",
+      "tip_program": "prelungit",
+      "taxa_baza_ron": 1700,
+      "limba_predare": "germana"
+    },
+    {
+      "id": 2,
+      "nume": "Junior Academy Sibiu",
+      "cartier": "Hipodrom",
+      "tip_program": "normal",
+      "taxa_baza_ron": 2100,
+      "limba_predare": "romana"
+    },
+    {
+      "id": 3,
+      "nume": "Piticot",
+      "cartier": "Vasile Aaron",
+      "tip_program": "prelungit",
+      "taxa_baza_ron": 1500,
+      "limba_predare": "romana"
+    },
+    {
+      "id": 4,
+      "nume": "Kids Joy Sibiu",
+      "cartier": "Centru",
+      "tip_program": "scurt",
+      "taxa_baza_ron": 1200,
+      "limba_predare": "engleza"
+    },
+    {
+      "id": 5,
+      "nume": "Montessori Education",
+      "cartier": "Terezian",
+      "tip_program": "prelungit",
+      "taxa_baza_ron": 2500,
+      "limba_predare": "germana"
+    }
+  ],
+  "cursuri": [
+    {
+      "id": 101,
+      "gradinitaId": 1,
+      "nume_curs": "Limba Germană Avansat",
+      "pret_ron": 0,
+      "frecventa_saptamanala": 5
+    },
+    {
+      "id": 102,
+      "gradinitaId": 1,
+      "nume_curs": "Tenis de câmp",
+      "pret_ron": 300,
+      "frecventa_saptamanala": 2
+    },
+    {
+      "id": 103,
+      "gradinitaId": 2,
+      "nume_curs": "Dansuri Populare",
+      "pret_ron": 100,
+      "frecventa_saptamanala": 1
+    },
+    {
+      "id": 104,
+      "gradinitaId": 1,
+      "nume_curs": "Șah",
+      "pret_ron": 120,
+      "frecventa_saptamanala": 1
+    },
+    {
+      "id": 105,
+      "gradinitaId": 3,
+      "nume_curs": "Pictură",
+      "pret_ron": 80,
+      "frecventa_saptamanala": 1
+    },
+    {
+      "id": 106,
+      "gradinitaId": 3,
+      "nume_curs": "Engleză Distractivă",
+      "pret_ron": 150,
+      "frecventa_saptamanala": 2
+    },
+    {
+      "id": 107,
+      "gradinitaId": 4,
+      "nume_curs": "Robotică",
+      "pret_ron": 200,
+      "frecventa_saptamanala": 1
+    },
+    {
+      "id": 108,
+      "gradinitaId": 5,
+      "nume_curs": "Pian",
+      "pret_ron": 250,
+      "frecventa_saptamanala": 2
+    },
+    {
+      "id": 109,
+      "gradinitaId": 5,
+      "nume_curs": "Modelaj în lut",
+      "pret_ron": 100,
+      "frecventa_saptamanala": 1
+    }
+  ]
+}
